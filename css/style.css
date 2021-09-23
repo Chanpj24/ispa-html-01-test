@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2? family = Caramel & family = Karla: wght @ 300 & family = Scheherazade + New & display = swap');
+
+/*
+familia de fuentes: 'Caramel', cursiva;
+familia de fuentes: 'Karla', sans-serif;
+familia de fuentes: 'Scheherazade New', serif;
+*/
+
+/*
+CODIGO CSS COMENTADO
+PALETA DE COLORES
+Azul Agua Marina : #50C6CA
+Verde Claro : #67D671
+*/
+
+/* CLASES GLOBALES */
+.bg-color-sea-water-blue{
+    background-color: #50C6CA
+}
+
+.bg-color-green-clear{
+    background-color: #67D671;
+}
+
+
+.parallax{
+    /* The image used */
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.5), rgba(43, 55, 132, .5)), url("../img/bakemonogataribg.jpg");
+        /* Full height */
+        height: 85vh;
+        /*vh = 70 viewport height - vw = viewport width*/
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: 100% 35%;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+body{
+    margin: 0%;
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 1px 1px 1px;
+    padding: 10px 10px;
+    color: #b4db47;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    background-color: rgb(231, 186, 146);
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: rgb(221, 107, 107);
+}
+
+nav ul li {
+    padding: 20px 10px;
+    transition: all 500ms;
+}
+
+nav ul li:hover {
+    background-color: #b4db47;
+}
+
+
+section#de-que-trata h3 {
+    color:#50C6CA;
+}
+
+section#de-que-trata p{
+    color:#67D671
+}
+
+section#cuales-son-los-ordenes h3{
+    color: #67D671;
+}
+section#cuales-son-los-ordenes h2{
+    color: #67D671;
+}
+section#cuales-son-los-ordenes p{
+    color: #50C6CA;
+}
+section#cuales-son-los-ordenes ul li{
+    color: #50C6CA;
+}
+
+section#porque-verlo-en-emision h1{
+    color: #50C6CA;
+}
+section#porque-verlo-en-emision p{
+    color: #67D671;
+}
+
+section#orden-de-emision h2{
+    color: #67D671;
+}
+section#orden-de-emision ol li{
+    color: #50C6CA;
+}
+
+section#porque-verlo-en-semi-cronologico h1{
+    color: #50C6CA;
+}
+
+section#porque-verlo-en-semi-cronologico p{
+    color: #67D671;
+}
+
+section#orden-semi-cronologico h1{
+    color: #67D671;
+}
+section#orden-semi-cronologico ol li{
+    color: #50C6CA;
+}
+
+section#porque-verlo-en-orden-cronologico h1{
+    color: #50C6CA;
+}
+
+section#porque-verlo-en-orden-cronologico p{
+    color: #67D671;
+}
+
+section#orden-cronologico{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+section#orden-cronologico h1{
+    color: #67D671;
+}
+
+section#orden-cronologico ol li{
+    color: #50C6CA;
+}
+
+section#contact-me{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+section#contact-me h1{
+    color: aliceblue;
+}
+
+section#contact-me p{
+    color: aliceblue;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+section#contact-me label{
+    color: aqua;
+}
