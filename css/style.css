@@ -135,10 +135,10 @@ section#porque-verlo-en-orden-cronologico p{
     color: #67D671;
 }
 
-section#orden-cronologico{
+section#orden-cronologico div{
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    
 }
 
 section#orden-cronologico h1{
@@ -151,9 +151,9 @@ section#orden-cronologico ol li{
 
 section#contact-me{
     display: flex;
-    flex-direction: column;
+    justify-content: flex-end;
     align-items: flex-start;
-    justify-content: center;
+    flex-direction: column;;
 }
 
 section#contact-me h1{
@@ -172,4 +172,9 @@ form{
 
 section#contact-me label{
     color: aqua;
+}
+
+section#contact-me form * {
+    background: transparent;
+    color: #fff;
 }
