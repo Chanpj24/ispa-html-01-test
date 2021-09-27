@@ -79,6 +79,7 @@ nav ul li:hover {
 
 section#de-que-trata h3 {
     color:#50C6CA;
+    text-shadow: 1px 1px 1px;
 }
 
 section#de-que-trata p{
@@ -87,9 +88,11 @@ section#de-que-trata p{
 
 section#cuales-son-los-ordenes h3{
     color: #67D671;
+    text-shadow: 1px 1px 1px;
 }
 section#cuales-son-los-ordenes h2{
     color: #67D671;
+    text-shadow: 1px 1px 1px;
 }
 section#cuales-son-los-ordenes p{
     color: #50C6CA;
@@ -100,6 +103,7 @@ section#cuales-son-los-ordenes ul li{
 
 section#porque-verlo-en-emision h1{
     color: #50C6CA;
+    text-shadow: 1px 1px 1px;
 }
 section#porque-verlo-en-emision p{
     color: #67D671;
@@ -107,6 +111,7 @@ section#porque-verlo-en-emision p{
 
 section#orden-de-emision h2{
     color: #67D671;
+    text-shadow: 1px 1px 1px;
 }
 section#orden-de-emision ol li{
     color: #50C6CA;
@@ -114,6 +119,7 @@ section#orden-de-emision ol li{
 
 section#porque-verlo-en-semi-cronologico h1{
     color: #50C6CA;
+    text-shadow: 1px 1px 1px;
 }
 
 section#porque-verlo-en-semi-cronologico p{
@@ -122,6 +128,7 @@ section#porque-verlo-en-semi-cronologico p{
 
 section#orden-semi-cronologico h1{
     color: #67D671;
+    text-shadow: 1px 1px 1px;
 }
 section#orden-semi-cronologico ol li{
     color: #50C6CA;
@@ -129,6 +136,7 @@ section#orden-semi-cronologico ol li{
 
 section#porque-verlo-en-orden-cronologico h1{
     color: #50C6CA;
+    text-shadow: 1px 1px 1px;
 }
 
 section#porque-verlo-en-orden-cronologico p{
@@ -143,6 +151,7 @@ section#orden-cronologico div{
 
 section#orden-cronologico h1{
     color: #67D671;
+    text-shadow: 1px 1px 1px;
 }
 
 section#orden-cronologico ol li{
@@ -157,11 +166,12 @@ section#contact-me{
 }
 
 section#contact-me h1{
-    color: aliceblue;
+    color: #50C6CA;
+    text-shadow: 1px 1px 1px;
 }
 
 section#contact-me p{
-    color: aliceblue;
+    color: #67D671;
 }
 
 form{
@@ -176,5 +186,5 @@ section#contact-me label{
 
 section#contact-me form * {
     background: transparent;
-    color: #fff;
+    color: #67D671;
 }
