@@ -188,3 +188,14 @@ section#contact-me form * {
     background: transparent;
     color: #67D671;
 }
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer p {
+    color: #50C6CA;
+}
